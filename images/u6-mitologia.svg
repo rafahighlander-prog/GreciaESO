@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#ead9bd"/>
+  <polygon points="600,120 660,280 840,280 690,380 740,540 600,440 460,540 510,380 360,280 540,280" fill="#c69b5f"/>
+  <circle cx="600" cy="340" r="58" fill="#f8f0dd"/>
+  <text x="110" y="100" font-family="Georgia, serif" font-size="50" fill="#5c442a">Religion y Mitologia</text>
+  <text x="110" y="150" font-family="Georgia, serif" font-size="28" fill="#6a5135">Dioses, mitos y legado cultural</text>
+</svg>

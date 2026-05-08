@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#efe3cf"/>
+  <rect x="180" y="530" width="840" height="70" fill="#d6bf98"/>
+  <polygon points="220,260 600,130 980,260" fill="#b8915d"/>
+  <rect x="250" y="260" width="700" height="32" fill="#f6efdf"/>
+  <rect x="300" y="292" width="70" height="238" fill="#f8f1e3"/>
+  <rect x="450" y="292" width="70" height="238" fill="#f8f1e3"/>
+  <rect x="600" y="292" width="70" height="238" fill="#f8f1e3"/>
+  <rect x="750" y="292" width="70" height="238" fill="#f8f1e3"/>
+  <text x="120" y="90" font-family="Georgia, serif" font-size="50" fill="#5b4328">Arte Griego</text>
+</svg>

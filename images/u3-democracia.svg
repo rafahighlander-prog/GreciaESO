@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#e9dcc5"/>
+  <circle cx="260" cy="350" r="110" fill="#b07b3f"/>
+  <circle cx="260" cy="350" r="70" fill="#f8f1e2"/>
+  <rect x="420" y="180" width="620" height="360" rx="16" fill="#f5eddd" stroke="#b08a56" stroke-width="8"/>
+  <line x1="470" y1="270" x2="990" y2="270" stroke="#b08a56" stroke-width="10"/>
+  <line x1="470" y1="355" x2="990" y2="355" stroke="#b08a56" stroke-width="10"/>
+  <line x1="470" y1="440" x2="990" y2="440" stroke="#b08a56" stroke-width="10"/>
+  <text x="80" y="110" font-family="Georgia, serif" font-size="46" fill="#5b462a">Democracia Ateniense</text>
+</svg>

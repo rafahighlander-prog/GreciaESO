@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ecae6"/>
+      <stop offset="1" stop-color="#4b8fb8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sea)"/>
+  <path d="M120 110 L390 70 L520 180 L460 290 L250 320 L80 250 Z" fill="#d6c09a"/>
+  <path d="M640 110 L890 130 L960 280 L760 360 L620 260 Z" fill="#cfb58a"/>
+  <path d="M300 470 L500 430 L610 550 L420 630 L260 560 Z" fill="#d9c6a1"/>
+  <circle cx="860" cy="500" r="58" fill="#f7e4b6"/>
+  <text x="70" y="70" font-family="Georgia, serif" font-size="44" fill="#1f3c50">Territorio de la Helade</text>
+</svg>
