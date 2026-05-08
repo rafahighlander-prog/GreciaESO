@@ -45,32 +45,32 @@ const UNIDADES = [
         id: "u1e1",
         tipo: "test",
         enunciado: "La Helade se caracterizaba por...",
-        opciones: ["Grandes llanuras continuas", "Relieve montanoso y costa recortada", "Desiertos extensos", "Clima polar"],
+        opciones: ["Grandes llanuras continuas", "Relieve montañoso y costa recortada", "Desiertos extensos", "Clima polar"],
         respuesta: 1,
-        explicacion: "El relieve montanoso y el mar explican la dispersion en polis."
+        explicacion: "El relieve montañoso y el mar explican la dispersión en polis."
       },
       {
         id: "u1e2",
         tipo: "test",
-        enunciado: "La civilizacion minoica se desarrollo principalmente en...",
+        enunciado: "La civilización minoica se desarrolló principalmente en...",
         opciones: ["Esparta", "Atenas", "Creta", "Macedonia"],
         respuesta: 2,
-        explicacion: "La civilizacion minoica se desarrollo en la isla de Creta."
+        explicacion: "La civilización minoica se desarrolló en la isla de Creta."
       },
       {
         id: "u1e3",
         tipo: "ordenar",
-        enunciado: "Ordena cronologicamente estas civilizaciones (de mas antigua a mas reciente):",
-        elementos: ["Civilizacion micenica", "Civilizacion minoica"],
-        correcto: ["Civilizacion minoica", "Civilizacion micenica"],
-        explicacion: "Primero minoica, despues micenica."
+        enunciado: "Ordena cronológicamente estas civilizaciones (de más antigua a más reciente):",
+        elementos: ["Civilización micénica", "Civilización minoica"],
+        correcto: ["Civilización minoica", "Civilización micénica"],
+        explicacion: "Primero minoica, después micénica."
       },
       {
         id: "u1e4",
         tipo: "input",
-        enunciado: "Escribe el nombre del palacio minoico mas famoso:",
+        enunciado: "Escribe el nombre del palacio minoico más famoso:",
         respuestaTexto: "cnosos",
-        explicacion: "Cnosos es el palacio mas conocido de Creta."
+        explicacion: "Cnosos es el palacio más conocido de Creta."
       }
     ]
   },
@@ -121,18 +121,18 @@ const UNIDADES = [
       {
         id: "u2e1",
         tipo: "test",
-        enunciado: "La llamada epoca oscura griega se situa aproximadamente entre...",
+        enunciado: "La llamada época oscura griega se sitúa aproximadamente entre...",
         opciones: ["3000-1250 a.C.", "1600-1150 a.C.", "1150-800 a.C.", "490-334 a.C."],
         respuesta: 2,
-        explicacion: "La epoca oscura se ubica entre 1150 y 800 a.C."
+        explicacion: "La época oscura se ubica entre 1150 y 800 a.C."
       },
       {
         id: "u2e2",
         tipo: "test",
-        enunciado: "El agora en una polis era...",
-        opciones: ["La fortaleza militar", "La plaza publica para mercado y reuniones", "El templo principal", "El puerto comercial"],
+        enunciado: "El ágora en una polis era...",
+        opciones: ["La fortaleza militar", "La plaza pública para mercado y reuniones", "El templo principal", "El puerto comercial"],
         respuesta: 1,
-        explicacion: "El agora era la plaza publica central de la vida economica y civica."
+        explicacion: "El ágora era la plaza pública central de la vida económica y cívica."
       },
       {
         id: "u2e3",
@@ -144,17 +144,17 @@ const UNIDADES = [
       {
         id: "u2e4",
         tipo: "input",
-        enunciado: "Escribe el nombre de una colonia griega destacada en la peninsula iberica:",
+        enunciado: "Escribe el nombre de una colonia griega destacada en la península ibérica:",
         respuestaTexto: "ampurias",
-        explicacion: "Ampurias (Emporion) fue una colonia griega destacada en la costa iberica."
+        explicacion: "Ampurias (Emporion) fue una colonia griega destacada en la costa ibérica."
       },
       {
         id: "u2e5",
         tipo: "test",
-        enunciado: "Una causa importante de la colonizacion griega fue...",
+        enunciado: "Una causa importante de la colonización griega fue...",
         opciones: ["La ausencia de comercio", "La escasez de tierras cultivables", "La conquista romana", "El fin de la agricultura"],
         respuesta: 1,
-        explicacion: "El aumento de poblacion y la falta de tierras impulsaron la fundacion de colonias."
+        explicacion: "El aumento de población y la falta de tierras impulsaron la fundación de colonias."
       }
     ]
   },
@@ -195,15 +195,15 @@ const UNIDADES = [
       {
         id: "u3e1",
         tipo: "test",
-        enunciado: "La epoca clasica griega se situa aproximadamente entre...",
+        enunciado: "La época clásica griega se sitúa aproximadamente entre...",
         opciones: ["1150-800 a.C.", "490-334 a.C.", "356-323 a.C.", "30-1 a.C."],
         respuesta: 1,
-        explicacion: "La epoca clasica se ubica entre 490 y 334 a.C."
+        explicacion: "La época clásica se ubica entre 490 y 334 a.C."
       },
       {
         id: "u3e2",
         tipo: "test",
-        enunciado: "Cuantos ciudadanos formaban la Boule o Consejo?",
+        enunciado: "¿Cuántos ciudadanos formaban la Boule o Consejo?",
         opciones: ["100", "300", "500", "1000"],
         respuesta: 2,
         explicacion: "La Boule estaba compuesta por 500 ciudadanos."
@@ -218,9 +218,9 @@ const UNIDADES = [
       {
         id: "u3e4",
         tipo: "verdadero_falso",
-        enunciado: "Los metecos tenian los mismos derechos politicos que los ciudadanos.",
+        enunciado: "Los metecos tenían los mismos derechos políticos que los ciudadanos.",
         respuestaVF: false,
-        explicacion: "Los metecos eran residentes extranjeros sin ciudadania politica plena."
+        explicacion: "Los metecos eran residentes extranjeros sin ciudadanía política plena."
       },
       {
         id: "u3e5",
@@ -265,25 +265,25 @@ const UNIDADES = [
       {
         id: "u4e2",
         tipo: "test",
-        enunciado: "En aproximadamente cuantos anos conquisto Alejandro su gran imperio?",
+        enunciado: "¿En aproximadamente cuántos años conquistó Alejandro su gran imperio?",
         opciones: ["2", "5", "10", "30"],
         respuesta: 2,
-        explicacion: "La expansion principal de Alejandro se realizo en torno a diez anos."
+        explicacion: "La expansión principal de Alejandro se realizó en torno a diez años."
       },
       {
         id: "u4e3",
         tipo: "test",
-        enunciado: "Que significa el termino helenismo en este contexto?",
-        opciones: ["Retorno a la monarquia micenica", "Difusion de la cultura griega por amplios territorios", "Prohibicion del comercio", "Un tipo de templo"],
-        respuesta: 2,
-        explicacion: "El helenismo identifica la expansion cultural griega tras las conquistas de Alejandro."
+        enunciado: "¿Qué significa el término helenismo en este contexto?",
+        opciones: ["Retorno a la monarquía micénica", "Difusión de la cultura griega por amplios territorios", "Prohibición del comercio", "Un tipo de templo"],
+        respuesta: 1,
+        explicacion: "El helenismo identifica la difusión cultural griega tras las conquistas de Alejandro."
       },
       {
         id: "u4e4",
         tipo: "input",
-        enunciado: "Ciudad donde murio Alejandro Magno en 323 a.C.:",
+        enunciado: "Ciudad donde murió Alejandro Magno en 323 a.C.:",
         respuestaTexto: "babilonia",
-        explicacion: "Alejandro murio en Babilonia en el ano 323 a.C."
+        explicacion: "Alejandro murió en Babilonia en el año 323 a.C."
       }
     ]
   },
@@ -321,30 +321,30 @@ const UNIDADES = [
         id: "u5e1",
         tipo: "test",
         enunciado: "La arquitectura griega buscaba sobre todo...",
-        opciones: ["Monumentalidad colosal", "Proporcion, equilibrio y medida", "Decoracion barroca", "Altura extrema"],
+        opciones: ["Monumentalidad colosal", "Proporción, equilibrio y medida", "Decoración barroca", "Altura extrema"],
         respuesta: 1,
-        explicacion: "El ideal griego se basaba en proporcion, equilibrio y medida correcta."
+        explicacion: "El ideal griego se basaba en proporción, equilibrio y medida correcta."
       },
       {
         id: "u5e2",
         tipo: "test",
         enunciado: "Los edificios griegos eran principalmente...",
-        opciones: ["Abovedados", "De madera", "Adintelados", "Subterraneos"],
+        opciones: ["Abovedados", "De madera", "Adintelados", "Subterráneos"],
         respuesta: 2,
         explicacion: "Usaban sistema adintelado con columnas y cubiertas horizontales."
       },
       {
         id: "u5e3",
         tipo: "test",
-        enunciado: "Que orden clasico se reconoce por las volutas en el capitel?",
-        opciones: ["Dorico", "Jonico", "Corintio", "Toscano"],
-        respuesta: 2,
-        explicacion: "El orden jonico se distingue por sus volutas."
+        enunciado: "¿Qué orden clásico se reconoce por las volutas en el capitel?",
+        opciones: ["Dórico", "Jónico", "Corintio", "Toscano"],
+        respuesta: 1,
+        explicacion: "El orden jónico se distingue por sus volutas."
       },
       {
         id: "u5e4",
         tipo: "verdadero_falso",
-        enunciado: "El templo era el edificio mas importante de la arquitectura griega.",
+        enunciado: "El templo era el edificio más importante de la arquitectura griega.",
         respuestaVF: true,
         explicacion: "Se consideraba la residencia de los dioses y eje de la arquitectura religiosa."
       }
@@ -381,47 +381,47 @@ const UNIDADES = [
       {
         id: "u6e1",
         tipo: "test",
-        enunciado: "La religion griega era...",
-        opciones: ["Monoteista", "Politeista", "Atea", "Sin dioses antropomorfos"],
+        enunciado: "La religión griega era...",
+        opciones: ["Monoteísta", "Politeísta", "Atea", "Sin dioses antropomorfos"],
         respuesta: 1,
         explicacion: "Los griegos adoraban numerosos dioses."
       },
       {
         id: "u6e2",
         tipo: "test",
-        enunciado: "Que obra epica se atribuye a Homero?",
-        opciones: ["La Eneida", "La Iliada", "Metamorfosis", "La Republica"],
+        enunciado: "¿Qué obra épica se atribuye a Homero?",
+        opciones: ["La Eneida", "La Ilíada", "Metamorfosis", "La República"],
         respuesta: 1,
-        explicacion: "La Iliada (junto con La Odisea) se atribuye tradicionalmente a Homero."
+        explicacion: "La Ilíada (junto con La Odisea) se atribuye tradicionalmente a Homero."
       },
       {
         id: "u6e3",
         tipo: "test",
-        enunciado: "Quien destaco en matematicas dentro de la cultura griega?",
-        opciones: ["Pitagoras", "Pericles", "Alejandro", "Leonidas"],
+        enunciado: "¿Quién destacó en matemáticas dentro de la cultura griega?",
+        opciones: ["Pitágoras", "Pericles", "Alejandro", "Leónidas"],
         respuesta: 0,
-        explicacion: "Pitagoras y Euclides son referencias matematicas de la Grecia antigua."
+        explicacion: "Pitágoras y Euclides son referencias matemáticas de la Grecia antigua."
       },
       {
         id: "u6e4",
         tipo: "input",
-        enunciado: "Dios principal del Olimpo en la mitologia griega:",
+        enunciado: "Dios principal del Olimpo en la mitología griega:",
         respuestaTexto: "zeus",
-        explicacion: "Zeus presidia el monte Olimpo."
+        explicacion: "Zeus presidía el monte Olimpo."
       },
       {
         id: "u6e5",
         tipo: "verdadero_falso",
         enunciado: "En el teatro griego se representaban tragedias y comedias.",
         respuestaVF: true,
-        explicacion: "El teatro griego distinguio especialmente tragedias y comedias."
+        explicacion: "El teatro griego distinguió especialmente tragedias y comedias."
       },
       {
         id: "u6e6",
         tipo: "verdadero_falso",
         enunciado: "La cultura griega no tuvo influencia en Roma.",
         respuestaVF: false,
-        explicacion: "Roma heredara y adaptara gran parte de la cultura griega."
+        explicacion: "Roma heredará y adaptará gran parte de la cultura griega."
       }
     ]
   }

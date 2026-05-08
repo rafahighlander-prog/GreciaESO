@@ -1,4 +1,4 @@
-const CACHE_NAME = 'greciaeso-v6';
+const CACHE_NAME = 'greciaeso-v8';
 const ASSETS = [
   './',
   './index.html',
