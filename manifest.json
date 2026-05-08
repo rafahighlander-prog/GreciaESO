@@ -1,7 +1,7 @@
 {
-  "name": "GreciaESO - Geografia e Historia 1 ESO",
+  "name": "GreciaESO - Geografía e Historia 1 ESO",
   "short_name": "GreciaESO",
-  "description": "App para estudiar la Antigua Grecia en 1 ESO con teoria, ejercicios y examenes.",
+  "description": "App para estudiar la Antigua Grecia en 1 ESO con teoría, ejercicios y exámenes.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f0e7d6",

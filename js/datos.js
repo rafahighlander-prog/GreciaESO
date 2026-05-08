@@ -3,42 +3,42 @@
 const UNIDADES = [
   {
     id: 1,
-    titulo: "Los origenes de la civilizacion griega",
-    subtitulo: "Territorio de la Helade, minoicos y micenicos",
+    titulo: "Los orígenes de la civilización griega",
+    subtitulo: "Territorio de la Hélade, minoicos y micénicos",
     icono: "🌍",
     imagen: "images/u1-helade.svg",
     teoria: `
-      <h2>1. Los origenes de la civilizacion griega</h2>
-      <h3>1.1 El territorio de la Helade</h3>
-      <p>La civilizacion griega surgio en el extremo oriental del mar Mediterraneo, entre los mares Jonico y Egeo. Su territorio, de dimensiones semejantes al de la actual Grecia, se extendia por la peninsula Balcanica, las costas de Asia Menor y una gran cantidad de islas y archipielagos.</p>
-      <p>El territorio griego era irregular y accidentado, con profundos valles entre montanas que dificultaban la agricultura y las comunicaciones. Por ello, la antigua Grecia nunca constituyo un Estado unificado y se organizo en diferentes ciudades-estado autonomas e independientes: la polis griega.</p>
-      <p>A pesar de estar divididos en diferentes polis, los antiguos griegos se sentian miembros de una misma civilizacion. Denominaban a su territorio Helade, el pais de los helenos, porque compartian una misma lengua, religion y cultura.</p>
+      <h2>1. Los orígenes de la civilización griega</h2>
+      <h3>1.1 El territorio de la Hélade</h3>
+      <p>La civilización griega surgió en el extremo oriental del mar Mediterráneo, entre los mares Jónico y Egeo. Su territorio, de dimensiones semejantes al de la actual Grecia, se extendía por la península Balcánica, las costas de Asia Menor y una gran cantidad de islas y archipiélagos.</p>
+      <p>El territorio griego era irregular y accidentado, con profundos valles entre montañas que dificultaban la agricultura y las comunicaciones. Por ello, la antigua Grecia nunca constituyó un Estado unificado y se organizó en diferentes ciudades-estado autónomas e independientes: la polis griega.</p>
+      <p>A pesar de estar divididos en diferentes polis, los antiguos griegos se sentían miembros de una misma civilización. Denominaban a su territorio Hélade, el país de los helenos, porque compartían una misma lengua, religión y cultura.</p>
       <ul>
-        <li><b>Relieve accidentado:</b> favorecio ciudades politicamente separadas.</li>
-        <li><b>Gran contacto con el mar:</b> impulso comercio, navegacion y fundacion de colonias.</li>
+        <li><b>Relieve accidentado:</b> favoreció ciudades políticamente separadas.</li>
+        <li><b>Gran contacto con el mar:</b> impulsó comercio, navegación y fundación de colonias.</li>
         <li><b>Clima mediterraneo:</b> base de la trilogia agraria (olivo, vid y cereal).</li>
       </ul>
       <figure class="img-figure">
         <img src="images/u1-helade.svg" alt="Mapa conceptual del territorio de la Helade">
-        <figcaption>Representacion didactica del espacio geografico de la Helade.</figcaption>
+        <figcaption>Representación didáctica del espacio geográfico de la Hélade.</figcaption>
       </figure>
-      <h3>1.2 Nacimiento de la civilizacion griega</h3>
-      <p>La historia de Grecia puede dividirse en varias etapas desde sus inicios hasta la dominacion romana. En la Edad de los Metales se desarrollaron dos civilizaciones prehelenicas que constituyen los origenes de la civilizacion griega: la cultura minoica o cretense y la cultura micenica.</p>
-      <p><b>Civilizacion minoica o cretense (3000 - 1250 a.C.)</b></p>
+      <h3>1.2 Nacimiento de la civilización griega</h3>
+      <p>La historia de Grecia puede dividirse en varias etapas desde sus inicios hasta la dominación romana. En la Edad de los Metales se desarrollaron dos civilizaciones prehelénicas que constituyen los orígenes de la civilización griega: la cultura minoica o cretense y la cultura micénica.</p>
+      <p><b>Civilización minoica o cretense (3000 - 1250 a.C.)</b></p>
       <ul>
-        <li><b>Localizacion:</b> se desarrollo en la isla de Creta desde el III milenio a.C.</li>
-        <li><b>Situacion geografica:</b> permitio convertirse en el centro comercial y cultural mas importante de la epoca (talasocracia).</li>
-        <li><b>Principales construcciones:</b> palacios donde residian los reyes y desde donde se dirigia el comercio maritimo, como Cnosos.</li>
-        <li><b>Religion:</b> destaco el culto a la fecundidad (Diosa Madre) y al toro como simbolo de fortaleza.</li>
+        <li><b>Localización:</b> se desarrolló en la isla de Creta desde el III milenio a.C.</li>
+        <li><b>Situación geográfica:</b> permitió convertirse en el centro comercial y cultural más importante de la época (talasocracia).</li>
+        <li><b>Principales construcciones:</b> palacios donde residían los reyes y desde donde se dirigía el comercio marítimo, como Cnosos.</li>
+        <li><b>Religión:</b> destacó el culto a la fecundidad (Diosa Madre) y al toro como símbolo de fortaleza.</li>
       </ul>
-      <p><b>Civilizacion micenica (1600 - 1150 a.C.)</b></p>
+      <p><b>Civilización micénica (1600 - 1150 a.C.)</b></p>
       <ul>
-        <li><b>Contexto:</b> convivio con la cultura minoica y se desarrollo en la peninsula del Peloponeso.</li>
-        <li><b>Organizacion:</b> ciudades amuralladas como Micenas y Argos, orientadas al comercio y gobernadas por reyes en palacios lujosos.</li>
+        <li><b>Contexto:</b> convivió con la cultura minoica y se desarrolló en la península del Peloponeso.</li>
+        <li><b>Organización:</b> ciudades amuralladas como Micenas y Argos, orientadas al comercio y gobernadas por reyes en palacios lujosos.</li>
         <li><b>Rituales funerarios:</b> enterramientos en tumbas circulares (tholos) con ricos ajuares, joyas y armas.</li>
-        <li><b>Aportacion historica:</b> sento bases politicas y culturales del posterior mundo griego.</li>
+        <li><b>Aportación histórica:</b> sentó bases políticas y culturales del posterior mundo griego.</li>
       </ul>
-      <p>Tras la crisis del mundo micenico se abre una etapa de transicion, y con el tiempo surgira la Grecia arcaica de las polis.</p>
+      <p>Tras la crisis del mundo micénico se abre una etapa de transición, y con el tiempo surgirá la Grecia arcaica de las polis.</p>
     `,
     ejercicios: [
       {
@@ -82,39 +82,39 @@ const UNIDADES = [
     imagen: "images/u2-polis.svg",
     teoria: `
       <h2>2. La polis griega</h2>
-      <p>Hacia el 1150 a.C., Grecia vivio una etapa de crisis conocida como <b>epoca oscura (1150-800 a.C.)</b>. Durante la epoca arcaica se consolido una nueva forma de organizacion: la <b>polis griega</b>, ciudad-estado autonoma.</p>
+      <p>Hacia el 1150 a.C., Grecia vivió una etapa de crisis conocida como <b>época oscura (1150-800 a.C.)</b>. Durante la época arcaica se consolidó una nueva forma de organización: la <b>polis griega</b>, ciudad-estado autónoma.</p>
       <h3>Las polis griegas eran ciudades independientes</h3>
-      <p>Eran ciudades-estado autonomas e independientes, cada una con sus propias leyes, moneda, ejercito y gobierno. Solian situarse en lugares elevados y amurallados para facilitar la defensa.</p>
+      <p>Eran ciudades-estado autónomas e independientes, cada una con sus propias leyes, moneda, ejército y gobierno. Solían situarse en lugares elevados y amurallados para facilitar la defensa.</p>
       <ul>
-        <li><b>Agora:</b> plaza publica en el centro, lugar de mercado, reuniones y vida civica.</li>
-        <li><b>Acropolis:</b> recinto amurallado en la zona alta con templos y edificios religiosos.</li>
-        <li><b>Territorio de la polis:</b> nucleo urbano y tierras de cultivo del entorno.</li>
+        <li><b>Ágora:</b> plaza pública en el centro, lugar de mercado, reuniones y vida cívica.</li>
+        <li><b>Acrópolis:</b> recinto amurallado en la zona alta con templos y edificios religiosos.</li>
+        <li><b>Territorio de la polis:</b> núcleo urbano y tierras de cultivo del entorno.</li>
       </ul>
       <h3>Con formas de vida similares</h3>
-      <p>Los griegos compartian actividades economicas semejantes:</p>
+      <p>Los griegos compartían actividades económicas semejantes:</p>
       <ul>
-        <li><b>Ganaderia:</b> ovejas, cabras y cerdos.</li>
+        <li><b>Ganadería:</b> ovejas, cabras y cerdos.</li>
         <li><b>Agricultura:</b> trigo, cebada, vid y olivo.</li>
-        <li><b>Artesania:</b> tejidos, ceramica, joyas y armas.</li>
+        <li><b>Artesanía:</b> tejidos, cerámica, joyas y armas.</li>
       </ul>
-      <p>El comercio fue la actividad principal. Hubo comercio interior en el agora y comercio exterior por el Mediterraneo. Se usaban dracmas de plata; se exportaban vinos, aceites y ceramicas, y se importaban cereales, madera y metales preciosos.</p>
+      <p>El comercio fue la actividad principal. Hubo comercio interior en el ágora y comercio exterior por el Mediterráneo. Se usaban dracmas de plata; se exportaban vinos, aceites y cerámicas, y se importaban cereales, madera y metales preciosos.</p>
       <h3>Pero con diferentes tipos de gobierno</h3>
       <ul>
-        <li><b>Monarquia:</b> poder en manos de un monarca con autoridad politica y militar.</li>
-        <li><b>Oligarquia:</b> gobierno de una minoria aristocratica.</li>
-        <li><b>Tirania:</b> poder personal por la fuerza o apoyo popular coyuntural.</li>
-        <li><b>Democracia:</b> participacion de ciudadanos en asambleas y votaciones.</li>
+        <li><b>Monarquía:</b> poder en manos de un monarca con autoridad política y militar.</li>
+        <li><b>Oligarquía:</b> gobierno de una minoría aristocrática.</li>
+        <li><b>Tiranía:</b> poder personal por la fuerza o apoyo popular coyuntural.</li>
+        <li><b>Democracia:</b> participación de ciudadanos en asambleas y votaciones.</li>
       </ul>
-      <h3>La colonizacion griega</h3>
-      <p>En epoca arcaica se produjo una gran expansion y colonizacion griega. El crecimiento demografico y la escasez de tierras cultivables impulsaron la emigracion y la fundacion de nuevas colonias independientes por el Mediterraneo y el mar Negro.</p>
+      <h3>La colonización griega</h3>
+      <p>En época arcaica se produjo una gran expansión y colonización griega. El crecimiento demográfico y la escasez de tierras cultivables impulsaron la emigración y la fundación de nuevas colonias independientes por el Mediterráneo y el mar Negro.</p>
       <ul>
-        <li><b>Efecto economico:</b> gran crecimiento economico y comercial.</li>
+        <li><b>Efecto económico:</b> gran crecimiento económico y comercial.</li>
         <li><b>Red comercial:</b> los griegos tejieron una amplia red por todo el Mediterraneo.</li>
         <li><b>Colonias destacadas:</b> Ampurias, Massalia y Siracusa.</li>
       </ul>
       <figure class="img-figure">
         <img src="images/u2-polis.svg" alt="Ilustracion de una polis griega">
-        <figcaption>La polis combinaba ciudad, territorio y comunidad politica.</figcaption>
+        <figcaption>La polis combinaba ciudad, territorio y comunidad política.</figcaption>
       </figure>
     `,
     ejercicios: [
@@ -160,35 +160,35 @@ const UNIDADES = [
   },
   {
     id: 3,
-    titulo: "Como era la democracia ateniense",
+    titulo: "Cómo era la democracia ateniense",
     subtitulo: "Instituciones y sociedad de Atenas",
     icono: "⚖️",
     imagen: "images/u3-democracia.svg",
     teoria: `
-      <h2>3. Como era la democracia ateniense</h2>
-      <p>El mayor esplendor de la antigua Grecia se alcanzo en la <b>epoca clasica (490-334 a.C.)</b>, etapa de gran madurez politica, artistica y cultural. Entre las polis destacaron Atenas y Esparta.</p>
-      <p>En el siglo V a.C. se consolido en Atenas la democracia como sistema de gobierno, basada en instituciones que permitian la participacion de los ciudadanos en la toma de decisiones de la polis.</p>
+      <h2>3. Cómo era la democracia ateniense</h2>
+      <p>El mayor esplendor de la antigua Grecia se alcanzó en la <b>época clásica (490-334 a.C.)</b>, etapa de gran madurez política, artística y cultural. Entre las polis destacaron Atenas y Esparta.</p>
+      <p>En el siglo V a.C. se consolidó en Atenas la democracia como sistema de gobierno, basada en instituciones que permitían la participación de los ciudadanos en la toma de decisiones de la polis.</p>
       <h3>ATENAS: instituciones</h3>
       <ul>
-        <li><b>Boule o Consejo:</b> 500 ciudadanos encargados de preparar leyes y asuntos politicos.</li>
-        <li><b>Ecclesia o Asamblea:</b> ciudadanos que trataban los asuntos principales, elegian cargos y votaban leyes.</li>
-        <li><b>Los magistrados:</b> funcionarios del gobierno de la polis; destacaban arcontes (funciones politicas y religiosas) y estrategos (funciones militares).</li>
-        <li><b>Tribunales de justicia (Heliea):</b> instituciones populares para la administracion de justicia.</li>
+        <li><b>Boule o Consejo:</b> 500 ciudadanos encargados de preparar leyes y asuntos políticos.</li>
+        <li><b>Ecclesia o Asamblea:</b> ciudadanos que trataban los asuntos principales, elegían cargos y votaban leyes.</li>
+        <li><b>Los magistrados:</b> funcionarios del gobierno de la polis; destacaban arcontes (funciones políticas y religiosas) y estrategos (funciones militares).</li>
+        <li><b>Tribunales de justicia (Heliea):</b> instituciones populares para la administración de justicia.</li>
       </ul>
       <h3>Sociedad ateniense</h3>
-      <p>La sociedad ateniense no era igualitaria. Solo algunos hombres eran ciudadanos y podian participar en la vida politica: varones adultos nacidos de padre y madre atenienses.</p>
+      <p>La sociedad ateniense no era igualitaria. Solo algunos hombres eran ciudadanos y podían participar en la vida política: varones adultos nacidos de padre y madre atenienses.</p>
       <ul>
-        <li><b>Ciudadanos:</b> participaban en la Asamblea, formaban parte del ejercito y podian ocupar cargos publicos.</li>
-        <li><b>Mujeres:</b> sin derechos politicos, con vida orientada al ambito domestico.</li>
-        <li><b>Metecos:</b> extranjeros residentes, artesanos o comerciantes; pagaban impuestos y podian servir en el ejercito, sin derechos politicos plenos.</li>
-        <li><b>Esclavos y esclavas:</b> considerados propiedad, sin libertad juridica ni derechos politicos.</li>
+        <li><b>Ciudadanos:</b> participaban en la Asamblea, formaban parte del ejército y podían ocupar cargos públicos.</li>
+        <li><b>Mujeres:</b> sin derechos políticos, con vida orientada al ámbito doméstico.</li>
+        <li><b>Metecos:</b> extranjeros residentes, artesanos o comerciantes; pagaban impuestos y podían servir en el ejército, sin derechos políticos plenos.</li>
+        <li><b>Esclavos y esclavas:</b> considerados propiedad, sin libertad jurídica ni derechos políticos.</li>
       </ul>
       <div class="nota-box">
-        La democracia ateniense fue un gran avance historico, aunque excluia a una gran parte de la poblacion.
+        La democracia ateniense fue un gran avance histórico, aunque excluía a una gran parte de la población.
       </div>
       <figure class="img-figure">
-        <img src="images/u3-democracia.svg" alt="Esquema de instituciones democraticas atenienses">
-        <figcaption>Principales instituciones politicas de la democracia ateniense.</figcaption>
+        <img src="images/u3-democracia.svg" alt="Esquema de instituciones democráticas atenienses">
+        <figcaption>Principales instituciones políticas de la democracia ateniense.</figcaption>
       </figure>
     `,
     ejercicios: [
@@ -233,24 +233,24 @@ const UNIDADES = [
   },
   {
     id: 4,
-    titulo: "Alejandro Magno y la epoca helenistica",
-    subtitulo: "Expansion macedonica y fusion cultural",
+    titulo: "Alejandro Magno y la época helenística",
+    subtitulo: "Expansión macedónica y fusión cultural",
     icono: "🛡️",
     imagen: "images/u4-helenismo.svg",
     teoria: `
-      <h2>4. Alejandro Magno y la epoca helenistica</h2>
-      <p>Tras las guerras del siglo V a.C. y la rivalidad entre polis, Macedonia se convirtio en una potencia decisiva en el mundo griego.</p>
-      <p><b>Alejandro (356-323 a.C.)</b>, hijo de Filipo de Macedonia, fue educado por Aristoteles. Al suceder a su padre concentro el poder y puso en marcha una expansion militar sin precedentes.</p>
+      <h2>4. Alejandro Magno y la época helenística</h2>
+      <p>Tras las guerras del siglo V a.C. y la rivalidad entre polis, Macedonia se convirtió en una potencia decisiva en el mundo griego.</p>
+      <p><b>Alejandro (356-323 a.C.)</b>, hijo de Filipo de Macedonia, fue educado por Aristóteles. Al suceder a su padre concentró el poder y puso en marcha una expansión militar sin precedentes.</p>
       <ul>
-        <li><b>Conquistas en una decada:</b> derroto al Imperio persa y creo un gran imperio desde el mar Egeo hasta la India.</li>
-        <li><b>Hegemonia territorial:</b> su imperio fue el mayor de la Antiguedad en su momento.</li>
-        <li><b>Helenismo:</b> su expansion favorecio la difusion de la cultura y civilizacion griega.</li>
-        <li><b>Prestigio personal:</b> su capacidad militar le valio el sobrenombre de "el Grande".</li>
+        <li><b>Conquistas en una década:</b> derrotó al Imperio persa y creó un gran imperio desde el mar Egeo hasta la India.</li>
+        <li><b>Hegemonía territorial:</b> su imperio fue el mayor de la Antigüedad en su momento.</li>
+        <li><b>Helenismo:</b> su expansión favoreció la difusión de la cultura y civilización griega.</li>
+        <li><b>Prestigio personal:</b> su capacidad militar le valió el sobrenombre de "el Grande".</li>
       </ul>
-      <p>Alejandro murio en Babilonia en 323 a.C. Sus sucesores no mantuvieron la unidad del imperio, que se fragmento en varios reinos helenisticos. Finalmente Grecia paso a ser provincia romana en 30 a.C.</p>
+      <p>Alejandro murió en Babilonia en 323 a.C. Sus sucesores no mantuvieron la unidad del imperio, que se fragmentó en varios reinos helenísticos. Finalmente Grecia pasó a ser provincia romana en 30 a.C.</p>
       <figure class="img-figure">
-        <img src="images/u4-helenismo.svg" alt="Ilustracion sobre expansion helenistica">
-        <figcaption>Expansion y difusion del mundo helenistico tras Alejandro.</figcaption>
+        <img src="images/u4-helenismo.svg" alt="Ilustración sobre expansión helenística">
+        <figcaption>Expansión y difusión del mundo helenístico tras Alejandro.</figcaption>
       </figure>
     `,
     ejercicios: [
@@ -290,30 +290,30 @@ const UNIDADES = [
   {
     id: 5,
     titulo: "Arte en la Antigua Grecia",
-    subtitulo: "Arquitectura, templos y ordenes clasicos",
+    subtitulo: "Arquitectura, templos y órdenes clásicos",
     icono: "🎨",
     imagen: "images/u5-arte.svg",
     teoria: `
       <h2>5. Arte en la Antigua Grecia</h2>
-      <h3>Caracteristicas de la arquitectura griega</h3>
+      <h3>Características de la arquitectura griega</h3>
       <ul>
-        <li>Busqueda de belleza y perfeccion a traves de la proporcion, el equilibrio y la medida correcta.</li>
+        <li>Búsqueda de belleza y perfección a través de la proporción, el equilibrio y la medida correcta.</li>
         <li>Arquitectura a medida humana, no colosal como en Egipto.</li>
-        <li>Construcciones urbanas realizadas principalmente en piedra y marmol.</li>
-        <li>Edificios adintelados: no usaban arco ni boveda, sino cubiertas planas y columnas.</li>
-        <li>Funcion sobre todo religiosa, con ejemplos como templos y teatros.</li>
+        <li>Construcciones urbanas realizadas principalmente en piedra y mármol.</li>
+        <li>Edificios adintelados: no usaban arco ni bóveda, sino cubiertas planas y columnas.</li>
+        <li>Función sobre todo religiosa, con ejemplos como templos y teatros.</li>
       </ul>
-      <h3>Templos y ordenes clasicos</h3>
-      <p>El templo era el edificio mas importante de la arquitectura griega, considerado residencia de los dioses. Se levantaba en piedra (marmol y caliza), era policromo y presentaba fachada con fronton triangular rodeada de columnas.</p>
-      <p>Para decorar el exterior se desarrollaron tres ordenes arquitectonicos, combinaciones de columnas y entablamentos que se consideraban modelos de belleza:</p>
+      <h3>Templos y órdenes clásicos</h3>
+      <p>El templo era el edificio más importante de la arquitectura griega, considerado residencia de los dioses. Se levantaba en piedra (mármol y caliza), era policromo y presentaba fachada con frontón triangular rodeada de columnas.</p>
+      <p>Para decorar el exterior se desarrollaron tres órdenes arquitectónicos, combinaciones de columnas y entablamentos que se consideraban modelos de belleza:</p>
       <ul>
-        <li><b>Dorico:</b> sobrio y corpulento.</li>
-        <li><b>Jonico:</b> mas ligero y esbelto, con volutas.</li>
+        <li><b>Dórico:</b> sobrio y corpulento.</li>
+        <li><b>Jónico:</b> más ligero y esbelto, con volutas.</li>
         <li><b>Corintio:</b> inspirado en el jonico, con hojas de acanto.</li>
       </ul>
       <figure class="img-figure">
-        <img src="images/u5-arte.svg" alt="Ilustracion de templo griego clasico">
-        <figcaption>Modelo didactico de templo con columnas y fronton.</figcaption>
+        <img src="images/u5-arte.svg" alt="Ilustración de templo griego clásico">
+        <figcaption>Modelo didáctico de templo con columnas y frontón.</figcaption>
       </figure>
     `,
     ejercicios: [
@@ -352,29 +352,29 @@ const UNIDADES = [
   },
   {
     id: 6,
-    titulo: "Religion y cultura en la Antigua Grecia",
-    subtitulo: "Mitologia griega y legado cultural",
+    titulo: "Religión y cultura en la Antigua Grecia",
+    subtitulo: "Mitología griega y legado cultural",
     icono: "⚡",
     imagen: "images/u6-mitologia.svg",
     teoria: `
-      <h2>6. Religion y cultura en la Antigua Grecia</h2>
-      <h3>Mitologia griega</h3>
-      <p>La religion griega era politeista: creian en muchos dioses representados con aspecto humano (antropomorfos). Los dioses eran inmortales, tenian poderes sobrehumanos y eran responsables de mantener el orden del mundo.</p>
-      <p>Los mitos surgieron como relatos para explicar el origen del mundo, del ser humano y de los fenomenos de la naturaleza.</p>
+      <h2>6. Religión y cultura en la Antigua Grecia</h2>
+      <h3>Mitología griega</h3>
+      <p>La religión griega era politeísta: creían en muchos dioses representados con aspecto humano (antropomorfos). Los dioses eran inmortales, tenían poderes sobrehumanos y eran responsables de mantener el orden del mundo.</p>
+      <p>Los mitos surgieron como relatos para explicar el origen del mundo, del ser humano y de los fenómenos de la naturaleza.</p>
       <ul>
-        <li><b>Dioses olimpicos:</b> Zeus, Hera, Poseidon, Afrodita, Atenea, Hades, Ares, entre otros.</li>
-        <li><b>Heroes y criaturas:</b> Hercules, Teseo, Perseo, ciclopos, centauros y gorgonas.</li>
-        <li><b>Culto religioso:</b> cada polis estaba protegida por una divinidad y construia templos para su culto.</li>
-        <li><b>Fiestas comunes:</b> Juegos Olimpicos periodicos en honor de los dioses.</li>
+        <li><b>Dioses olímpicos:</b> Zeus, Hera, Poseidón, Afrodita, Atenea, Hades, Ares, entre otros.</li>
+        <li><b>Héroes y criaturas:</b> Hércules, Teseo, Perseo, cíclopes, centauros y gorgonas.</li>
+        <li><b>Culto religioso:</b> cada polis estaba protegida por una divinidad y construía templos para su culto.</li>
+        <li><b>Fiestas comunes:</b> Juegos Olímpicos periódicos en honor de los dioses.</li>
       </ul>
       <h3>La cultura griega</h3>
-      <p>La filosofia nacio en Grecia: los pensadores sustituyeron explicaciones miticas por la razon. Destacaron Socrates, Platon y Aristoteles.</p>
-      <p>En literatura se desarrollo la poesia epica sobre heroes y mitos; obras fundamentales fueron <i>La Iliada</i> y <i>La Odisea</i>, atribuidas a Homero.</p>
-      <p>El teatro fue otra gran aportacion: espectaculo publico con mascaras, tragedias y comedias.</p>
-      <p>Las ciencias avanzaron gracias al pensamiento racional: Pitagoras y Euclides (matematicas), Arquimedes (fisica), Eratostenes (astronomia), Hipocrates y Galeno (medicina), Herodoto y Tucidides (historia).</p>
+      <p>La filosofía nació en Grecia: los pensadores sustituyeron explicaciones míticas por la razón. Destacaron Sócrates, Platón y Aristóteles.</p>
+      <p>En literatura se desarrolló la poesía épica sobre héroes y mitos; obras fundamentales fueron <i>La Ilíada</i> y <i>La Odisea</i>, atribuidas a Homero.</p>
+      <p>El teatro fue otra gran aportación: espectáculo público con máscaras, tragedias y comedias.</p>
+      <p>Las ciencias avanzaron gracias al pensamiento racional: Pitágoras y Euclides (matemáticas), Arquímedes (física), Eratóstenes (astronomía), Hipócrates y Galeno (medicina), Heródoto y Tucídides (historia).</p>
       <figure class="img-figure">
-        <img src="images/u6-mitologia.svg" alt="Ilustracion simbolica de mitologia griega">
-        <figcaption>Religion, mitologia y cultura como ejes del legado griego.</figcaption>
+        <img src="images/u6-mitologia.svg" alt="Ilustración simbólica de mitología griega">
+        <figcaption>Religión, mitología y cultura como ejes del legado griego.</figcaption>
       </figure>
     `,
     ejercicios: [

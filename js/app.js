@@ -6,63 +6,55 @@
   let history = [];
   let examState = null;
   let timelineActiveIndex = 0;
-  const presentationState = {
-    open: false,
-    index: 0,
-    playing: true,
-    intervalMs: 5000,
-    timerId: null,
-    keyHandler: null
-  };
 
   const PROGRESS_KEY = 'greciaeso_progress';
   const TIMELINE_EVENTS = [
     {
       year: '3000 - 1250 a.C.',
-      title: 'Civilizacion minoica',
-      detail: 'Florece en Creta con palacios, comercio maritimo y una cultura material muy desarrollada.'
+      title: 'Civilización minoica',
+      detail: 'Florece en Creta con palacios, comercio marítimo y una cultura material muy desarrollada.'
     },
     {
       year: '1600 - 1150 a.C.',
-      title: 'Civilizacion micenica',
-      detail: 'Se consolidan centros fortificados en la Grecia continental y una elite guerrera aristocratica.'
+      title: 'Civilización micénica',
+      detail: 'Se consolidan centros fortificados en la Grecia continental y una élite guerrera aristocrática.'
     },
     {
       year: 'Siglos VIII - VI a.C.',
-      title: 'Colonizacion griega',
-      detail: 'Las polis fundan colonias por el Mediterraneo y el mar Negro para ampliar comercio y recursos.'
+      title: 'Colonización griega',
+      detail: 'Las polis fundan colonias por el Mediterráneo y el mar Negro para ampliar comercio y recursos.'
     },
     {
       year: 'Siglo V a.C.',
-      title: 'Democracia ateniense clasica',
+      title: 'Democracia ateniense clásica',
       detail: 'Atenas desarrolla instituciones participativas como Boule, Ecclesia, magistrados y Heliea.'
     },
     {
       year: '336 - 323 a.C.',
       title: 'Alejandro Magno',
-      detail: 'Macedonia expande su dominio y abre la etapa helenistica con gran difusion cultural.'
+      detail: 'Macedonia expande su dominio y abre la etapa helenística con gran difusión cultural.'
     }
   ];
   const GLOSSARY = {
-    helade: 'Conjunto de territorios del mundo griego antiguo: peninsula, islas y enclaves costeros.',
+    helade: 'Conjunto de territorios del mundo griego antiguo: península, islas y enclaves costeros.',
     polis: 'Ciudad-estado griega con instituciones, leyes y territorio propios.',
-    acropolis: 'Zona elevada y fortificada de la ciudad, con edificios simbolicos y religiosos.',
-    agora: 'Plaza publica de la polis dedicada al comercio, encuentro social y debate politico.',
-    dracmas: 'Monedas de plata utilizadas en intercambios economicos del mundo griego.',
+    acropolis: 'Zona elevada y fortificada de la ciudad, con edificios simbólicos y religiosos.',
+    agora: 'Plaza pública de la polis dedicada al comercio, encuentro social y debate político.',
+    dracmas: 'Monedas de plata utilizadas en intercambios económicos del mundo griego.',
     metropoli: 'Ciudad de origen respecto a una colonia fundada en otro territorio.',
-    colonizacion: 'Proceso de fundacion de colonias griegas fuera de la metropoli.',
+    colonizacion: 'Proceso de fundación de colonias griegas fuera de la metrópoli.',
     talasocracia: 'Dominio comercial y naval basado en el control del mar.',
     tholos: 'Tumba circular monumental usada por elites micenicas.',
     boule: 'Consejo ateniense que preparaba asuntos y propuestas para la Asamblea.',
     ecclesia: 'Asamblea de ciudadanos en Atenas con capacidad de deliberar y votar.',
-    magistrados: 'Cargos publicos anuales con funciones de gobierno, justicia y administracion.',
-    arcontes: 'Magistrados atenienses con funciones politicas y religiosas.',
+    magistrados: 'Cargos públicos anuales con funciones de gobierno, justicia y administración.',
+    arcontes: 'Magistrados atenienses con funciones políticas y religiosas.',
     estrategos: 'Magistrados atenienses vinculados al mando militar.',
     heliea: 'Tribunal popular de la democracia ateniense.',
-    metecos: 'Extranjeros residentes en Atenas sin derechos politicos plenos.',
-    helenistico: 'Etapa historica de fusion cultural entre lo griego y lo oriental tras Alejandro.',
-    adintelados: 'Sistemas constructivos de lineas rectas, con dintel horizontal sobre columnas.',
-    policromos: 'Elementos artisticos decorados con varios colores.'
+    metecos: 'Extranjeros residentes en Atenas sin derechos políticos plenos.',
+    helenistico: 'Etapa histórica de fusión cultural entre lo griego y lo oriental tras Alejandro.',
+    adintelados: 'Sistemas constructivos de líneas rectas, con dintel horizontal sobre columnas.',
+    policromos: 'Elementos artísticos decorados con varios colores.'
   };
 
   const $ = (s) => document.querySelector(s);
@@ -164,7 +156,7 @@
     root.querySelectorAll('.gloss-term').forEach(btn => {
       btn.addEventListener('click', () => {
         const key = btn.dataset.term;
-        const def = GLOSSARY[key] || 'Termino historico relevante en el tema.';
+        const def = GLOSSARY[key] || 'Término histórico relevante en el tema.';
         const panel = document.createElement('div');
         panel.className = 'glossary-pop';
         panel.innerHTML = `
@@ -196,31 +188,12 @@
     `;
   }
 
-  function renderGallery() {
-    return `
-      <section class="gallery-strip">
-        <div class="gallery-head">
-          <h3>Galeria visual de la Antigua Grecia</h3>
-          <button class="btn btn-primary" id="start-presentation" type="button">Modo presentacion</button>
-        </div>
-        <div class="gallery-row">
-          ${UNIDADES.map(u => `
-            <article class="gallery-item" data-id="${u.id}">
-              <img src="${u.imagen}" alt="Imagen de ${u.titulo}" loading="lazy">
-              <div class="gallery-caption">Unidad ${u.id} · ${u.titulo}</div>
-            </article>
-          `).join('')}
-        </div>
-      </section>
-    `;
-  }
-
   function renderTimelineSection() {
     const active = TIMELINE_EVENTS[timelineActiveIndex];
     return `
       <section class="timeline-box">
         <div class="timeline-head">
-          <h3>Linea del tiempo interactiva</h3>
+          <h3>Línea del tiempo interactiva</h3>
           <button class="btn btn-muted" id="timeline-next" type="button">Siguiente hito</button>
         </div>
         <div class="timeline-rail">
@@ -237,117 +210,6 @@
         </article>
       </section>
     `;
-  }
-
-  function stopPresentationTimer() {
-    if (presentationState.timerId) {
-      clearInterval(presentationState.timerId);
-      presentationState.timerId = null;
-    }
-  }
-
-  function startPresentationTimer() {
-    stopPresentationTimer();
-    if (!presentationState.playing) return;
-    presentationState.timerId = setInterval(() => {
-      presentationState.index = (presentationState.index + 1) % UNIDADES.length;
-      renderPresentationSlide();
-    }, presentationState.intervalMs);
-  }
-
-  function renderPresentationSlide() {
-    const u = UNIDADES[presentationState.index];
-    const box = document.querySelector('.presentation-overlay');
-    if (!box || !u) return;
-    box.innerHTML = `
-      <div class="presentation-stage">
-        <img src="${u.imagen}" alt="Diapositiva ${u.titulo}">
-        <div class="presentation-caption">
-          <h3>Unidad ${u.id}: ${u.titulo}</h3>
-          <p>${u.subtitulo}</p>
-        </div>
-        <div class="presentation-controls">
-          <button class="btn btn-muted" data-pres="prev" type="button">Anterior</button>
-          <button class="btn btn-muted" data-pres="toggle" type="button">${presentationState.playing ? 'Pausar' : 'Reanudar'}</button>
-          <button class="btn btn-muted" data-pres="next" type="button">Siguiente</button>
-          <button class="btn btn-primary" data-pres="open-unit" type="button">Abrir unidad</button>
-          <button class="btn btn-primary" data-pres="close" type="button">Cerrar</button>
-        </div>
-      </div>
-    `;
-
-    box.querySelectorAll('[data-pres]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const action = btn.dataset.pres;
-        if (action === 'prev') {
-          presentationState.index = (presentationState.index - 1 + UNIDADES.length) % UNIDADES.length;
-          renderPresentationSlide();
-          return;
-        }
-        if (action === 'next') {
-          presentationState.index = (presentationState.index + 1) % UNIDADES.length;
-          renderPresentationSlide();
-          return;
-        }
-        if (action === 'toggle') {
-          presentationState.playing = !presentationState.playing;
-          startPresentationTimer();
-          renderPresentationSlide();
-          return;
-        }
-        if (action === 'open-unit') {
-          closePresentation();
-          nav('unidad-detail', u.id);
-          return;
-        }
-        if (action === 'close') {
-          closePresentation();
-        }
-      });
-    });
-  }
-
-  function closePresentation() {
-    stopPresentationTimer();
-    if (presentationState.keyHandler) {
-      document.removeEventListener('keydown', presentationState.keyHandler);
-      presentationState.keyHandler = null;
-    }
-    const overlay = document.querySelector('.presentation-overlay');
-    if (overlay) overlay.remove();
-    presentationState.open = false;
-  }
-
-  function openPresentation(startIndex = 0) {
-    closePresentation();
-    presentationState.index = startIndex;
-    presentationState.playing = true;
-    presentationState.open = true;
-
-    const overlay = document.createElement('div');
-    overlay.className = 'presentation-overlay';
-    document.body.appendChild(overlay);
-
-    presentationState.keyHandler = (e) => {
-      if (!presentationState.open) return;
-      if (e.key === 'Escape') closePresentation();
-      if (e.key === 'ArrowRight') {
-        presentationState.index = (presentationState.index + 1) % UNIDADES.length;
-        renderPresentationSlide();
-      }
-      if (e.key === 'ArrowLeft') {
-        presentationState.index = (presentationState.index - 1 + UNIDADES.length) % UNIDADES.length;
-        renderPresentationSlide();
-      }
-    };
-    document.addEventListener('keydown', presentationState.keyHandler);
-
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) closePresentation();
-    });
-
-    renderPresentationSlide();
-    startPresentationTimer();
   }
 
   function render() {
@@ -396,7 +258,7 @@
     content.innerHTML = `
       <section class="hero">
         <h2>Antigua Grecia · 1 ESO</h2>
-        <p>Estudia por unidades didacticas, practica ejercicios y genera examenes personalizados para repasar mejor Geografia e Historia.</p>
+        <p>Estudia por unidades didácticas, practica ejercicios y genera exámenes personalizados para repasar mejor Geografía e Historia.</p>
         <div class="kpi-grid">
           <div class="kpi"><strong>${st.totalUnits}</strong>unidades</div>
           <div class="kpi"><strong>${st.totalEx}</strong>ejercicios</div>
@@ -404,14 +266,11 @@
           <div class="kpi"><strong>${st.ok}</strong>aciertos</div>
         </div>
       </section>
-      ${renderGallery()}
       ${renderTimelineSection()}
       <section class="card-grid">
         ${UNIDADES.map(u => renderUnitCard(u, `Unidad ${u.id}`)).join('')}
       </section>
     `;
-
-    $('#start-presentation').addEventListener('click', () => openPresentation(0));
 
     $('#timeline-next').addEventListener('click', () => {
       timelineActiveIndex = (timelineActiveIndex + 1) % TIMELINE_EVENTS.length;
@@ -423,10 +282,6 @@
         timelineActiveIndex = Number(dot.dataset.tl);
         renderHome();
       });
-    });
-
-    $$('.gallery-item').forEach(item => {
-      item.addEventListener('click', () => nav('unidad-detail', Number(item.dataset.id)));
     });
 
     $$('.unit-card').forEach(card => {
@@ -459,7 +314,7 @@
           <span class="badge">Unidad ${u.id}</span>
           <button class="btn btn-muted" id="go-practice">Ir a ejercicios</button>
         </div>
-        <aside class="glossary-box">Tip: pulsa en terminos subrayados para abrir el glosario contextual.</aside>
+        <aside class="glossary-box">Tip: pulsa en términos subrayados para abrir el glosario contextual.</aside>
         ${u.teoria}
       </section>
     `;
@@ -473,7 +328,7 @@
     content.innerHTML = `
       <section class="hero">
         <h2>Propuestas de ejercicios</h2>
-        <p class="muted">Selecciona una unidad para practicar con actividades tipo test, verdadero/falso, respuesta corta y orden cronologico.</p>
+        <p class="muted">Selecciona una unidad para practicar con actividades tipo test, verdadero/falso, respuesta corta y orden cronológico.</p>
       </section>
       <section class="card-grid">
         ${UNIDADES.map(u => renderUnitCard(u, `${u.ejercicios.length} ejercicios`)).join('')}
@@ -644,9 +499,9 @@
     content.innerHTML = `
       <section class="exam-box">
         <h2>Generador de examenes</h2>
-        <p class="muted">Configura un examen automatico con preguntas mezcladas de varias unidades.</p>
+        <p class="muted">Configura un examen automático con preguntas mezcladas de varias unidades.</p>
 
-        <label for="exam-count">Numero de preguntas</label>
+        <label for="exam-count">Número de preguntas</label>
         <input type="number" id="exam-count" min="5" max="20" value="10">
 
         <label for="exam-units" style="margin-top:10px;">Unidad</label>
@@ -662,7 +517,7 @@
         </div>
       </section>
       <section class="exam-box" style="margin-top: 12px;">
-        <h3>Mini-examenes por tema</h3>
+        <h3>Mini-exámenes por tema</h3>
         <p class="muted">Lanza un mini-examen de 5 preguntas directamente en la unidad elegida.</p>
         <div class="mini-exam-grid">
           ${UNIDADES.map(u => `
@@ -930,7 +785,7 @@
         startExamWithOptions({
           count: wrongQuestions.length,
           unitValue: 'all',
-          modeLabel: `${examState.modeLabel || 'Examen'} · Recuperacion de fallos`,
+          modeLabel: `${examState.modeLabel || 'Examen'} · Recuperación de fallos`,
           questions: shuffle(wrongQuestions)
         });
       });
@@ -941,14 +796,14 @@
   function renderAyuda() {
     content.innerHTML = `
       <section class="chapter">
-        <h2>Como usar GreciaESO</h2>
+        <h2>Cómo usar GreciaESO</h2>
         <ul>
-          <li>Lee cada unidad didactica y apoya el estudio con las imagenes incluidas.</li>
+          <li>Lee cada unidad didáctica y apoya el estudio con las imágenes incluidas.</li>
           <li>Practica en "Ejercicios" con distintos tipos de actividad.</li>
-          <li>Genera examenes para preparar pruebas reales.</li>
-          <li>Tu progreso se guarda automaticamente en este dispositivo.</li>
+          <li>Genera exámenes para preparar pruebas reales.</li>
+          <li>Tu progreso se guarda automáticamente en este dispositivo.</li>
         </ul>
-        <div class="nota-box">Consejo: combina sesiones cortas de teoria y test para mejorar retencion.</div>
+        <div class="nota-box">Consejo: combina sesiones cortas de teoría y test para mejorar retención.</div>
       </section>
     `;
   }
